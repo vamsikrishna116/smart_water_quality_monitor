@@ -2,9 +2,8 @@
 
 An ESP32-based IoT system that measures **water temperature, electrical conductivity (EC) and TDS (Total Dissolved Solids)**, shows the readings on an OLED display, and streams them live to an **Arduino IoT Cloud** dashboard viewable on a laptop or phone.
 
-> Course project: *Electronic System Automation (22SDEC02R)*, B.Tech ECE, KL University.
 
-![Hardware setup](images/hardware_setup.jpg)
+
 
 ## Features
 
@@ -42,7 +41,7 @@ An ESP32-based IoT system that measures **water temperature, electrical conducti
 
 The ADS1115 and the OLED share the same I2C bus (OLED address `0x3C`, ADS1115 default `0x48`).
 
-![Circuit diagram](docs/circuit_diagram.png)
+
 
 ## Software and Libraries
 
@@ -91,8 +90,6 @@ Recalibrate periodically, as probe readings drift over time.
 
 Typical readings from testing: temperature around 31 °C and TDS around 270 to 310 ppm.
 
-![Dashboard on laptop](images/dashboard_laptop.png)
-![Dashboard on mobile](images/dashboard_mobile.png)
 
 ## Limitations
 
